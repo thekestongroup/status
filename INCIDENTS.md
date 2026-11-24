@@ -1,6 +1,6 @@
 # Posting an incident
 
-Edit `incidents.json` and push to `main`; the page shows it within a minute of deploy.
+Edit `public/incidents.json` and push to `main`; the page shows it within a minute of deploy.
 An incident stays on its services (with its updates) until its `status` is `resolved`.
 
 ```json
