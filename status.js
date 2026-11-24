@@ -3,8 +3,7 @@
 const SERVICES = [
   { id: 'id', name: 'Keston ID', url: 'https://id.keston.co/' },
   { id: 'admin', name: 'Keston Admin', url: 'https://admin.keston.co/' },
-  { id: 'utilities', name: 'Keston Utilities', url: 'https://utilities.keston.co/' },
-  { id: 'website', name: 'keston.co website', url: 'https://keston.co/' }
+  { id: 'utilities', name: 'Keston Utilities', url: 'https://utilities.keston.co/' }
 ]
 const el = (tag, props = {}, ...kids) => {
   const { dataset, ...rest } = props

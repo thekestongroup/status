@@ -20,6 +20,6 @@ An incident stays on its services (with its updates) until its `status` is `reso
 }
 ```
 
-- `services`: any of `id`, `admin`, `utilities`, `website`.
+- `services`: any of `id`, `admin`, `utilities`.
 - `status`: `investigating`, `identified`, `monitoring` or `resolved`. Add a final update with the resolution time when resolving.
 - Plain text only. Keep it free of personal data.
