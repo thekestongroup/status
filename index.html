@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; script-src 'self'; connect-src 'self' https://id.keston.co https://admin.keston.co https://utilities.keston.co https://keston.co; base-uri 'none'; form-action 'none'">
+<title>Keston status</title>
+<meta name="description" content="Whether Keston's services are running, and what we are doing when they are not.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><a href="./">Keston status</a></header>
+<main>
+<h1>Service status</h1>
+<div id="banner" class="banner" data-s="checking" role="status">Checking our services…</div>
+<p class="meta"><span id="when"></span> <button id="recheck" type="button">Check again</button></p>
+<div id="services"></div>
+<h2>Recent incidents</h2>
+<div id="past"><p>None in the last 30 days.</p></div>
+<noscript><p>This page needs JavaScript to check services from your browser.</p></noscript>
+<p class="meta">These checks run in your browser, so they show whether <em>you</em> can reach each service. This page is hosted separately from the services it reports on, so it stays up when they do not. Need help? <a href="https://keston.co/help">Contact support</a>.</p>
+</main>
+<footer><nav aria-label="Help and legal"><a href="https://keston.co/help">Help &amp; support</a><a href="https://keston.co/privacy">Privacy Policy</a><a href="https://keston.co/terms">Terms &amp; Conditions</a></nav><span>© 2026 The Keston Group</span></footer>
+<script src="status.js"></script>
+</body>
+</html>
